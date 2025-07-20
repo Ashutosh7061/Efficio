@@ -81,33 +81,35 @@ EFFICIO is a web-based educational tool designed to **simulate Operating System 
 ---
 
 ## 📂 Folder Structure
+```
 EFFICIO/
 │
-├── app.py                         # Main Flask application
+├── app.py # Main Flask application
 │
-├── algorithms/                    # Folder containing all algorithm logic
-│   ├── fcfs.py                    # First Come First Serve
-│   ├── sjf.py                     # Shortest Job First
-│   ├── rr.py                      # Round Robin
-│   ├── srtf.py                    # Shortest Remaining Time First
-│   ├── hrrn.py                    # Highest Response Ratio Next
-│   ├── fifo.py                    # FIFO Page Replacement
-│   ├── lru.py                     # LRU Page Replacement
-│   └── optimal.py                 # Optimal Page Replacement
+├── algorithms/ # Folder containing all algorithm logic
+│ ├── fcfs.py # First Come First Serve
+│ ├── sjf.py # Shortest Job First
+│ ├── rr.py # Round Robin
+│ ├── srtf.py # Shortest Remaining Time First
+│ ├── hrrn.py # Highest Response Ratio Next
+│ ├── fifo.py # FIFO Page Replacement
+│ ├── lru.py # LRU Page Replacement
+│ └── optimal.py # Optimal Page Replacement
 │
-├── templates/                     # HTML templates for frontend
-│   ├── index.html                 # Home page
-│   ├── login.html                 # Login page
-│   ├── register.html              # Registration page
-│   ├── scheduler.html             # Scheduling algorithms page
-│   ├── page_fault.html            # Page replacement algorithms page
-│   └── contact.html               # Contact form page
+├── templates/ # HTML templates for frontend
+│ ├── index.html # Home page
+│ ├── login.html # Login page
+│ ├── register.html # Registration page
+│ ├── scheduler.html # Scheduling algorithms page
+│ ├── page_fault.html # Page replacement algorithms page
+│ └── contact.html # Contact form page
 │
-├── static/                 
-│   └── images/                    # Image assets used in the app
-│       └── efficio_logo.png       # Example logo and other all
+├── static/
+│ └── images/ # Image assets used in the app
+│ └── efficio_logo.png # Example logo and other images
 │
-│
-└── README.md                      # Project documentation file
+└── README.md # Project documentation file
+```
+
 
 
